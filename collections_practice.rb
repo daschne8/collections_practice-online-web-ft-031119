@@ -23,9 +23,7 @@ end
 
 def kesha_maker(array)
   array.each_with_index do |element,index|
-    if (index + 1)%3 == 0
-      array[index] = "$"
-    end
+    element[2] = "$"
   end
   return array
 end
