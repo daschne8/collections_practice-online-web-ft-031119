@@ -29,4 +29,3 @@ def kesha_maker(array)
   end
   return array
 end
-
